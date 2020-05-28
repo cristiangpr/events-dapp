@@ -79,10 +79,11 @@ class App extends Component {
 
         </div>
         <Button primary>Enter</Button>
+        <Message success  content={this.state.message} />
     </Form>
     </Grid.Column>
     </Grid.Row>
-    <Message success  content={this.state.message} />
+   
     
     </Grid>
     </Container>
