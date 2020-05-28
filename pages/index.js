@@ -25,7 +25,7 @@ class App extends Component {
         
   
       });
-      this.setState({ message: "request sent" });
+      this.setState({ message: "request recieved" });
   
   }
    onSubmitResponse = async event => {
@@ -37,7 +37,7 @@ class App extends Component {
         from: accounts[0],
         
       });
-      this.setState({ message: "response sent" });
+      this.setState({ message: "response recieved" });
   
   }
   
@@ -48,7 +48,11 @@ class App extends Component {
      <Grid.Row style={{textAlign: 'center'}}>
        <Grid.Column width={16} ><h2>Hello Blockchain</h2 ></Grid.Column>
      </Grid.Row>
+     <Grid.Row style={{textAlign: 'center'}}>
+       <Grid.Column width={16} ><h2>HTTPS Access Key: https://crismember.blockchain.azure.com:3200/yJovSnoQJ1p-woB_L2otZUPf  </h2 ></Grid.Column>
+     </Grid.Row>
      <Grid.Row>
+       
     
      <Grid.Column width={8}>
       
