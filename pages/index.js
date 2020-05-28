@@ -85,6 +85,7 @@ class App extends Component {
         <Button primary>Enter</Button>
         <Message success  content={this.state.message} />
     </Form>
+    <Message success  content={this.state.message} />
     </Grid.Column>
     </Grid.Row>
    
