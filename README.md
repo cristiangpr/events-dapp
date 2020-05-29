@@ -30,3 +30,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 DEMO https://events-dapp.herokuapp.com/
+
+
+![image](https://user-images.githubusercontent.com/37251064/83305201-e755a380-a1c5-11ea-8f0b-49bbe66c9571.png)
